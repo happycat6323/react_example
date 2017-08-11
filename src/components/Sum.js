@@ -10,7 +10,7 @@ export default class Sum extends React.Component {
     let sum = this.props.number.map((num,index) =>{
       return(
           <tr key={index}>
-            <td stylr={{color:'#ff6600'}}>{num}</td>
+            <td style={{color:'#ff6600'}}>{num}</td>
           </tr>
       )
     })
